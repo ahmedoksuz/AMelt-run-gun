@@ -1,0 +1,3 @@
+Forward Renderer'a DepthNormals feature ekle
+Outline materyalini istediğin objeye ver
+bitti

@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: cc676f0e7e6081b48bfa177697dbc78a
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'LeftUpperLeg' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: shotgunOldAnim(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: shotgun.006
+      parentName: shotgunOldAnim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.00000014106499, y: 0, z: -0, w: 1}
+      scale: {x: 2.0941083, y: 2.0941083, z: 2.0941083}
+    - name: Armature.008
+      parentName: shotgunOldAnim(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: body
+      parentName: Armature.008
+      position: {x: 0.000000034307757, y: -0.3422383, z: -2.1350265}
+      rotation: {x: 0.2448812, y: 0.0072035175, z: 0.009024293, w: 0.9694843}
+      scale: {x: 1, y: 1, z: 1}
+    - name: trigger
+      parentName: body
+      position: {x: -0.00000255027, y: 4.887232, z: 0.1519102}
+      rotation: {x: 0.4258899, y: -0.000004975138, z: 0.0000028047791, w: 0.904775}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
+    - name: magazine
+      parentName: body
+      position: {x: -0.000012120928, y: 9.856279, z: 0.90646726}
+      rotation: {x: 0.100856245, y: 0.000000073855155, z: 0.0000012460049, w: 0.994901}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: reloadSwitch
+      parentName: body
+      position: {x: 0.0012361788, y: 6.463176, z: 0.333433}
+      rotation: {x: 0.15807931, y: -0.0000035277435, z: 0.0000013278395, w: 0.98742646}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: magazine2
+      parentName: body
+      position: {x: -0.000028718787, y: 5.212083, z: 2.4291518}
+      rotation: {x: 0.6032083, y: -0.000004589209, z: 0.0000034550662, w: 0.79758376}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: ejection
+      parentName: body
+      position: {x: 0.18405527, y: 6.8138666, z: -0.24912967}
+      rotation: {x: 0.10085636, y: 0.0000005157665, z: 0.0000012977514, w: 0.994901}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: bullet
+      parentName: body
+      position: {x: 3.3799555, y: 6.0544353, z: 3.2360733}
+      rotation: {x: -0.60366046, y: -0.471375, z: 0.64070296, w: 0.053846017}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
